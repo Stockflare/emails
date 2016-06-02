@@ -1,0 +1,5 @@
+We trigger alerts for stocks that you have in your watchlist and portfolio. Currently, you have {{count}} unread alerts.
+
+{{#messages}}
+  * {{message}}
+{{/messages}}
