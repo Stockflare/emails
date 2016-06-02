@@ -1,0 +1,7 @@
+You recently requested to delete your Stockflare account.
+
+Please confirm the reset by clicking the following link:
+
+https://stockflare.com/#!/delete/{{ token }}
+
+If you did not request this, your account may have been compromised. Please change your password immediately, or contact us for further assistance.
