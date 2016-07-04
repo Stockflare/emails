@@ -11,7 +11,6 @@ deploy:
       secure: "Oh7ulWHeSYxJQKCbu5LYafgxuW1aSGpYTixtyNYfOPZxnkNsuTi7HwW2z6BtbWo7f0+2n2LT3dEOMpuPJWJu1QzY0EDvmk5rHyGoxtXuAUt/QuskwF0Qb8eMlH2RfUylr+LD9WYG7cDN+ORo04QScL+ap18vK2PpoDsrMVG/oNJMxI7xMs2zT+TVk75VWO+qFw78i+IBFdXWSuFqoLSpduu7maI4s5w7LTEl7C/3YGikpIHwjAG1BTB4AIzW2wDHzwZH9ntUKReydt1fGVo+RSnxsqFUHnZWrv2Ef1rM0uJ8VnqLpaUDZyRJzNbgpWOMIDqzDN2z0K0+daNaoIZtyvi5BtPZcuq1pIsc5pm8DtR0tl0eKXioP4sIlX/Wz40z5t6BMJh4xddl4Lsi9Rd4BifKvc3gUtVKQLbyA4ieHCmOOahdfKcmD4NdO82OTkPb6XzK5v7KgBPJgAqq9fIMAm1bKyJjBwesl2hvLHN2Pi3O1VAjc/qd57qQR7/QRwVFfMlvjMWBjWeoak1qlFpURDVjsXtC/LcNd5Yokgoq4vn0k0PekcYybcRB4uslOD0yfC4yRM+JLeDSmFkBMu+aviNUsa+JIlojEo9Lkq6sL9FthByhTHsyZs2XhOYdRW2Xcd/ZxA4+dxcmm4kOHO1IOdZ2NePLZ0P6fxzKT9ZIgEE="
     skip_cleanup: true
     upload-dir: emails
-    edge: true
     region: us-east-1
     on:
       branch: master
@@ -24,7 +23,6 @@ deploy:
       secure: "PcuFHi2Yvpaoy9VVgzDvPmWZURQeejJ/HR/V3FHBEOXUfQBUGtToJpilMOEW+dwfsOj5fcTC5cZbe5Mjw0/Vy97Tr0Cj/1qpkdkkQX/g6Kmypyv2N5N6mi2CGS3ZT+lzMZ7hM5QzKgonbjpVCyrDidFZsSLMqEK//ys81UXIM+gwT5weO5nXh92evh1V7JAF4WO97V13NyohzkEaoA1IHUPEEBXFtUL5JJRmMSXxn48GZ6cN6r6IjbLnsgmcwSyaGgZ4dLkqXCa/sA0I4OBO771XIWMarnSw0BMdGp2gEwjbfili/fi3F3imwGfz801BY0TefkPsBgclFIFcoE2vZ5Y2FgLKjhLD/s10Jgd5CZ3VeFQEpJDaXXv06eOG7+l7GzBJeVS0ktxFGCS0qKvUjwz8aKx5hNaYz6UKm+gVK921FJuEfdnLfHJtNJjg/dd0KwRaRORLJ01QDXnSYnPgrzkqj1qYxvHtgQ+QrSAJ01YY2/HYSksJQjGNNqNz4N6ms2xq5ylVrz/dnGSfNRC3eP3IFS4AgX0jkj+x/R1EMhBsbCkyoSC8LdZ0fRryfYHVZiw7mYfIexUyTYjFqtWD0piJOZH304ULN5sO7zcgm3wOsQ05wlPFF1wHlXHkodWgZ9MB8wW7gMp/Htj7i3xt+CQ7luCtdttX7XG2z2EHi6E="
     skip_cleanup: true
     upload-dir: emails
-    edge: true
     region: us-east-1
     on:
       branch: master
