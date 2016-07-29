@@ -4,6 +4,3 @@ You have {{ count }} unread smart alerts and {{ hidden }} "Plus" alerts
 {{^has_hidden}}
 You have {{ count }} unread alerts
 {{/has_hidden}}
-{{#tickers}}
- {{.}}
-{{/tickers}}
