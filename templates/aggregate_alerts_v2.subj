@@ -1,4 +1,4 @@
-You have {{ count }} alerts
+{{ count }} alerts
 {{#tickers}}
- including {{tickers}}
+ inc. {{tickers}}
 {{/tickers}}
