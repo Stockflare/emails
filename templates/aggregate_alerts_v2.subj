@@ -1,0 +1,4 @@
+You have {{ count }} alerts
+{{#tickers}}
+ including {{tickers}}
+{{/tickers}}
