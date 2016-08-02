@@ -826,12 +826,29 @@
 																<table>
 																	<tbody>
 																		{{#messages}}
-																		<tr style="{{#tags.display_ticker}}border-top:1px solid #e9ecef;{{/tags.display_ticker}}">
+																		{{#tags.display_ticker}}
+																		<tr height="10px">
+																			<td></td>
+																			<td></td>
+																			<td></td>
+																		</tr>
+																		{{/tags.display_ticker}}
+																		<tr style="{{#tags.display_ticker}}border-top:1px solid #e9ecef;{{/tags.display_ticker}}" height="5px">
+																			<td></td>
+																			<td></td>
+																			<td></td>
+																		</tr>
+																		<tr>
 																			<td style="vertical-align: text-top" width="20%">
 																				{{#tags.display_ticker}}<a target="_blank" href="https://stockflare.com/stocks/{{tags.sic}}?key=sic&utm_source=alerts&utm_medium=email&utm_campaign=alerts&utm_content=stock">{{tags.display_ticker}}</a>{{/tags.display_ticker}}
 																			</td>
 																			<td style="vertical-align: text-top; color: {{#tags.positive}}#25dd9a{{/tags.positive}}{{#tags.negative}}#dd2525{{/tags.negative}}; {{#tags.silver}}background-color: #fef6f1;{{/tags.silver}} padding: 5px 5px 5px 5px !important;">●&nbsp;&nbsp;</td>
 																			<td style="vertical-align: text-top; {{#tags.silver}}background-color: #fef6f1;{{/tags.silver}} padding: 5px 5px 5px 5px !important;">{{message}}</td>
+																		</tr>
+																		<tr height="5px">
+																			<td></td>
+																			<td></td>
+																			<td></td>
 																		</tr>
 																		{{/messages}}
 																	</tbody>
