@@ -908,6 +908,68 @@
 										</tr>
 									</tbody>
 								</table>
+								<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width:100%;">
+									<tbody class="mcnDividerBlockOuter">
+										<tr>
+											<td class="mcnDividerBlockInner" style="min-width:100%; padding:18px;">
+												<table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top: 2px solid #EAEAEA;">
+													<tbody>
+														<tr>
+															<td>
+																<span></span>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												<!--
+                <td class="mcnDividerBlockInner" style="padding: 18px;">
+                <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+-->
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+									<tbody class="mcnTextBlockOuter">
+										<tr>
+											<td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
+												<!--[if mso]>
+				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+				<tr>
+				<![endif]-->
+
+												<!--[if mso]>
+				<td valign="top" width="600" style="width:600px;">
+				<![endif]-->
+												<table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
+													<tbody>
+														<tr>
+
+															<td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
+
+																{{#subscribed}}{{^trialing}}<p>Thank you for subscribing to Stockflare Plus.</p>{{/trialing}}{{/subscribed}}
+
+																{{#trialing}}<p>You are on our free trial of Stockflare Plus for the next {{trial_days}} days. <a href="https://stockflare.com/subscribe?utm_source=alerts&utm_medium=email&utm_campaign=alerts&utm_content=subscribe">Subscribe</a> to continue to get our <span style="background-color: #fef6f1"> Plus Alerts</span></p>{{/trialing}}
+
+																{{#offer_trial}}<p>You are using our free alerts service. Check out our 14 day Free Trial of <a href="https://stockflare.com/subscribe?utm_source=alerts&utm_medium=email&utm_campaign=alerts&utm_content=subscribe">Stockflare Plus</a></p>{{/offer_trial}}
+
+																{{^subscribed}}{{^offer_trial}}<p>You are using our free alerts service. Check out the benefits of <a href="https://stockflare.com/subscribe?utm_source=alerts&utm_medium=email&utm_campaign=alerts&utm_content=subscribe">Stockflare Plus</a>.</p>{{/offer_trial}}{{/subscribed}}
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												<!--[if mso]>
+				</td>
+				<![endif]-->
+
+												<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+											</td>
+										</tr>
+									</tbody>
+								</table>
 							</td>
 						</tr>
 						<tr>
@@ -974,7 +1036,7 @@
 																<strong>Contact us at:</strong>
 																<br>
 																<a href="mailto:info@stockflare.com" target="_blank">info@stockflare.com</a>
-																<br>Update your preferences at the <a href="https://stockflare.com/settings?utm_source=alerts&utm_medium=email&utm_campaign=alerts&utm_content=settings" target="_blank">settings</a> page or please click <a href="mailto:alerts+unsubscribe@stockflare.com?Subject=Please%20unsubscribe%20me%20from%20email%20alerts.&Body=Many%20thanks." target="_blank">here to unsubscribe.</a>
+																<br>Update your preferences at the <a href="https://stockflare.com/settings?utm_source=alerts&utm_medium=email&utm_campaign=alerts&utm_content=settings" target="_blank">settings</a> page or please click <a href="https://stockflare.com/alerts_email/unsubscribe/{{unsubscribe_token}}?utm_source=alerts&utm_medium=email&utm_campaign=alerts&utm_content=unsubscribe" target="_blank">here to unsubscribe.</a>
 															</td>
 														</tr>
 													</tbody>
