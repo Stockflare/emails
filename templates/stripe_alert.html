@@ -155,7 +155,7 @@
 		body,
 		#bodyTable {
 			/*@editable*/
-			background-color: #FAFAFA;
+			background-color: #f0f3f6;
 		}
 		/*
 	@tab Page
@@ -186,7 +186,7 @@
 
 		h1 {
 			/*@editable*/
-			color: #202020;
+			color: #5b616a;
 			/*@editable*/
 			font-family: Helvetica;
 			/*@editable*/
@@ -194,7 +194,7 @@
 			/*@editable*/
 			font-style: normal;
 			/*@editable*/
-			font-weight: bold;
+			font-weight: normal;
 			/*@editable*/
 			line-height: 125%;
 			/*@editable*/
@@ -211,7 +211,7 @@
 
 		h2 {
 			/*@editable*/
-			color: #202020;
+			color: #5b616a;
 			/*@editable*/
 			font-family: Helvetica;
 			/*@editable*/
@@ -219,7 +219,7 @@
 			/*@editable*/
 			font-style: normal;
 			/*@editable*/
-			font-weight: bold;
+			font-weight: normal;
 			/*@editable*/
 			line-height: 125%;
 			/*@editable*/
@@ -236,7 +236,7 @@
 
 		h3 {
 			/*@editable*/
-			color: #202020;
+			color: #5b616a;
 			/*@editable*/
 			font-family: Helvetica;
 			/*@editable*/
@@ -244,7 +244,7 @@
 			/*@editable*/
 			font-style: normal;
 			/*@editable*/
-			font-weight: bold;
+			font-weight: normal;
 			/*@editable*/
 			line-height: 125%;
 			/*@editable*/
@@ -285,7 +285,7 @@
 
 		#templatePreheader {
 			/*@editable*/
-			background-color: #FAFAFA;
+			background-color: #f0f3f6;
 			/*@editable*/
 			border-top: 0;
 			/*@editable*/
@@ -337,7 +337,7 @@
 
 		#templateHeader {
 			/*@editable*/
-			background-color: #FFFFFF;
+			background-color: #f0f3f6;
 			/*@editable*/
 			border-top: 0;
 			/*@editable*/
@@ -391,9 +391,9 @@
 			/*@editable*/
 			background-color: #FFFFFF;
 			/*@editable*/
-			border-top: 0;
+			border-top: 2px none #d1dae0;
 			/*@editable*/
-			border-bottom: 2px solid #EAEAEA;
+			border-bottom: 2px none #d1dae0;
 			/*@editable*/
 			padding-top: 0;
 			/*@editable*/
@@ -408,9 +408,9 @@
 		#templateBody .mcnTextContent,
 		#templateBody .mcnTextContent p {
 			/*@editable*/
-			color: #202020;
+			color: #617283;
 			/*@editable*/
-			font-family: Helvetica;
+			font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 			/*@editable*/
 			font-size: 16px;
 			/*@editable*/
@@ -427,11 +427,11 @@
 		#templateBody .mcnTextContent a,
 		#templateBody .mcnTextContent p a {
 			/*@editable*/
-			color: #2BAADF;
+			color: #495c6b;
 			/*@editable*/
-			font-weight: normal;
+			font-weight: bold;
 			/*@editable*/
-			text-decoration: underline;
+			text-decoration: none;
 		}
 		/*
 	@tab Footer
@@ -441,7 +441,7 @@
 
 		#templateFooter {
 			/*@editable*/
-			background-color: #FAFAFA;
+			background-color: #f0f3f6;
 			/*@editable*/
 			border-top: 0;
 			/*@editable*/
@@ -770,7 +770,29 @@
 						<![endif]-->
 					<table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
 						<tr>
-							<td valign="top" id="templatePreheader"></td>
+							<td valign="top" id="templatePreheader">
+								<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width:100%;">
+									<tbody class="mcnImageBlockOuter">
+										<tr>
+											<td valign="top" style="padding:9px" class="mcnImageBlockInner">
+												<table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width:100%;">
+													<tbody>
+														<tr>
+															<td class="mcnImageContent" valign="top" style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;">
+
+
+																<img align="center" alt="" src="https://public.stockflare.com/mail/sf-email-logo.png" width="23" style="max-width:23px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage">
+
+
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
 						</tr>
 						<tr>
 							<td valign="top" id="templateHeader"></td>
@@ -793,26 +815,11 @@
 													<tbody>
 														<tr>
 
-															<td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
+															<td valign="top" class="mcnTextContent" style="padding: 0px 18px 9px;color: #A4AEB4;">
 
 																<h1>{{subject}}</h1>
 
-																<p>{{body}}</p>
-
-																<table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
-																	<tbody>
-																		<tr>
-
-																			<td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:0px; padding-bottom:0px; padding-left:0px;">
-
-
-																				<p><a href="https://stockflare.com/{{link_path}}" target="_blank">{{link}}</a></p>
-
-
-																			</td>
-																		</tr>
-																	</tbody>
-																</table>
+																<p style="color: #A4AEB4;">{{body}}</p>
 
 															</td>
 														</tr>
@@ -830,6 +837,44 @@
 										</tr>
 									</tbody>
 								</table>
+								<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width:100%;">
+									<tbody class="mcnDividerBlockOuter">
+										<tr>
+											<td class="mcnDividerBlockInner" style="min-width:100%; padding:18px;">
+												<table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top: 2px none #EAEAEA;">
+													<tbody>
+														<tr>
+															<td>
+																<span></span>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												<!--
+                <td class="mcnDividerBlockInner" style="padding: 18px;">
+                <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+-->
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnButtonBlock" style="min-width:100%;">
+									<tbody class="mcnButtonBlockOuter">
+										<tr>
+											<td style="padding-top:0; padding-right:18px; padding-bottom:18px; padding-left:18px;" valign="top" align="left" class="mcnButtonBlockInner">
+												<table border="0" cellpadding="0" cellspacing="0" class="mcnButtonContentContainer" style="border-collapse: separate !important;border: 1px solid #107EE7;border-radius: 3px;background-color: #2A92F5;">
+													<tbody>
+														<tr>
+															<td align="center" valign="middle" class="mcnButtonContent" style="font-family: Arial; font-size: 16px; padding: 15px;">
+																<a class="mcnButton " title="Visit your alerts page" href="https://stockflare.com/{{link_path}}" target="_blank" style="font-weight: normal;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;">{{link}}</a>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+										</tr>
+									</tbody>
+								</table>
 							</td>
 						</tr>
 						<tr>
@@ -837,8 +882,8 @@
 								<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width:100%;">
 									<tbody class="mcnDividerBlockOuter">
 										<tr>
-											<td class="mcnDividerBlockInner" style="min-width: 100%; padding: 10px 18px 25px;">
-												<table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top-width: 2px;border-top-style: solid;border-top-color: #EEEEEE;">
+											<td class="mcnDividerBlockInner" style="min-width:100%; padding:18px;">
+												<table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top: 2px none #EAEAEA;">
 													<tbody>
 														<tr>
 															<td>
@@ -873,14 +918,12 @@
 
 															<td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
 
-																<em>© {{mailer_current_year}} Stockflare Limited. For more details on Stockflare Plus visit <a href="https://stockflare.com/subscribe" target="_blank">here</a>.</em>
+																<em>Copyright © *{{mailer_current_year}} Stockflare, All rights reserved.</em>
 																<br>
 																<br>
-																<strong>Contact us at:</strong>
+																<strong>Our mailing address is:</strong>
 																<br>
 																<a href="mailto:info@stockflare.com" target="_blank">info@stockflare.com</a>
-																<br>
-																<br> Update your <a href="https://stockflare.com/settings" target="_blank">email preferences</a> or change your details at your <a href="https://stockflare.com/settings" target="_blank">settings</a> page
 															</td>
 														</tr>
 													</tbody>
@@ -906,7 +949,6 @@
 						</table>
 						<![endif]-->
 					<!-- // END TEMPLATE -->
-					<!-- [17:18:00 11/07/2016] end of message -->
 				</td>
 			</tr>
 		</table>
