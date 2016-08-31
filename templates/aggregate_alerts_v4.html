@@ -14,7 +14,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>*Alerts!*</title>
+	<title>{{subject}}</title>
 
 	<style type="text/css">
 		p {
@@ -818,10 +818,18 @@
 
 															<td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
 
+																{{^weekly}}
 																<h1>You have {{ count }} unread alerts{{#has_hidden}} and {{hidden}} "Plus" alerts{{/has_hidden}}.</h1>
 
 																<p>We trigger alerts for stocks that you have in your watchlist and portfolio.</p>
 																&nbsp;
+																{{/weekly}}
+																{{#weekly}}
+																<h1>You had {{ count }} alerts{{#has_hidden}} and {{hidden}} "Plus" alerts{{/has_hidden}} last week.</h1>
+
+																<p>This is a weekly summary of the most important alerts you received in the last week.</p>
+																&nbsp;
+																{{/weekly}}
 
 																{{#portfolios}}
 																<h4>{{portfolio_type}} {{portfolio_name}}</h4>

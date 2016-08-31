@@ -1,4 +1,1 @@
-{{ count }} alerts
-{{#tickers}}
- inc. {{tickers}}
-{{/tickers}}
+{{subject}}
