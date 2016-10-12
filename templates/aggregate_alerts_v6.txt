@@ -1,0 +1,11 @@
+We trigger alerts for stocks that you have in your watchlist and portfolio. Currently, you have {{count}} unread alerts.
+
+{{#portfolios}}
+{{#messages}}
+  * {{tags.ticker}} {{message}}
+{{/messages}}
+{{/portfolios}}
+
+{{#has_hidden}}
+You have {{hidden}} Stockflare Plus alerts that have not been shown.  Visit Stockflare for a free trial of Stockflare Plus.
+{{/has_hidden}}
