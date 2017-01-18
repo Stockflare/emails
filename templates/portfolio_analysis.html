@@ -340,7 +340,7 @@
                                     <div style="font-size:12px;line-height:18px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;text-align:left;">
                                       <p style="margin: 0;font-size: 12px;line-height: 18px"><span style="font-size: 16px; line-height: 24px;"><strong>How are your investments doing?</strong></span>
                                       </p>
-                                      <p style="margin: 0;font-size: 12px;line-height: 18px"><span style="font-size: 16px; line-height: 21px; color: rgb(153, 153, 153);">Let's check out the latest analytics</span>
+                                      <p style="margin: 0;font-size: 12px;line-height: 18px"><span style="font-size: 16px; line-height: 21px; color: rgb(153, 153, 153);">Let's check out the latest analysis</span>
                                       </p>
                                     </div>
                                   </div>
@@ -365,7 +365,7 @@
 </table>
 
 {{#portfolios}}
-  <h2>{{analysis.analysis.name}}</h2>
+  <h2>{{analysis.analysis.name}} ({{analysis.updated_at}})</h2>
   {{#messages}}
     {{#data.is_information}}
       <!-- START OF BLOCK  -->
@@ -609,14 +609,14 @@
     {{/data.is_information}}
   {{/messages}}
   <a class="button-prompt" href="{{analysis.analysis.url}}?utm_source=alerts&utm_medium=email&utm_campaign=portfolio_analysis&utm_content=settings">
-    Go to watchlist
+    Update your watchlist
   </a>
   <br/>
 {{/portfolios}}
 
 
 {{#accounts}}
-  <h2>{{analysis.analysis.name}}</h2>
+  <h2>{{analysis.analysis.name}} ({{analysis.updated_at}})</h2>
   {{#messages}}
     {{#data.is_information}}
       <!-- START OF BLOCK  -->
@@ -860,7 +860,7 @@
     {{/data.is_information}}
   {{/messages}}
   <a class="button-prompt" href="{{analysis.analysis.url}}?utm_source=alerts&utm_medium=email&utm_campaign=portfolio_analysis&utm_content=settings">
-    Go to Account
+    Refresh your account
   </a>
   <br/>
   {{/accounts}}
@@ -978,7 +978,7 @@
                                                   <div style="color:#555555;line-height:120%;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;">
                                                     <div style="font-size:12px;line-height:14px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;text-align:center;">
                                                       <p style="margin: 0;font-size: 14px;line-height: 14px"><span style="font-size: 14px; line-height: 20px; color:#86929a;">  <span>
-                                                        © Stockflare Limited. For more details on Stockflare Plus visit here.
+                                                        © Stockflare Limited. For more details on Stockflare Plus visit <a h  href="https://stockflare.com?utm_source=portfolio_analysis&utm_medium=email&utm_campaign=portfolio_analysis&utm_content=stockflare">here.</a>
                                                       <br>
                                                       <br>
                                                           Contact us at:
