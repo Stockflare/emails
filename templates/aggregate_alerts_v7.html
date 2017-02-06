@@ -374,7 +374,9 @@
 						</tbody>
 					</table>
 					{{#messages}}
+					{{#tags.first}}
 					<div class="alert-wrapper">
+					{{/tags.first}}
 						{{#tags.display_ticker}}
 						<table cellpadding="0" cellspacing="0" align="center" width="100%" border="0" style="border-spacing: 0;border-collapse: collapse;vertical-align: top">
 							<tbody>
@@ -598,7 +600,9 @@
 				      </tbody>
 				    </table>
 						{{/tags.cta_button}}
+					{{#tags.last}}
 					</div>
+					{{/tags.last}}
 					{{/messages}}
 					<a class="button-prompt"  href="https://stockflare.com/alerts?utm_source=alerts&utm_medium=email&utm_campaign=alerts&utm_content=alerts" target="_blank">
 				    {{visit_alerts}}
