@@ -191,7 +191,7 @@
 			width: 142px !important;
 		}
 	</style>
-	<img src="https://www.google-analytics.com/collect?v=1&tid=UA-40898751-4&t=event&cid=0521f642-97a3-11e6-ae22-56b6b6499611&ec=email&ea=open&cs=alerts&cm=email&cn=alerts&dp=/email/alerts" />
+	<img src="https://www.google-analytics.com/collect?v=1&tid=UA-40898751-4&t=event&cid=4f19bb7e-6d0b-4f4b-920d-3e5798e8fae4&ec=email&ea=open&cs=explore_history&cm=email&cn=explore_history&dp=/email/explore_history" />
 	<table cellpadding="0" cellspacing="0" width="100%" class="body" border="0" style="border-spacing: 0;border-collapse: collapse;vertical-align: top;height: 100%;width: 100%;table-layout: fixed">
 		<tbody>
 			<tr style="vertical-align: top">
@@ -347,7 +347,7 @@
 																	<!--[if (gte mso 9)|(IE)]></td><![endif]-->
 																	<!--[if (gte mso 9)|(IE)]><td valign="top" width="453" style="width:453px;"><![endif]-->
 																	<div class="num8 company-name" style="display: inline-block;vertical-align: top;text-align: center;">
-																		<a href="https://m.stockflare.com/stock/{{ric}}?utm_source=alerts&utm_medium=email&utm_campaign=alerts&utm_content=stock">
+																		<a href="https://m.stockflare.com/stock/{{ric}}?utm_source=explore_history&utm_medium=email&utm_campaign=explore_history&utm_content=stock">
 																			<table cellpadding="0" cellspacing="0" align="center" width="100%" border="0" style="border-spacing: 0;border-collapse: collapse;vertical-align: top">
 																				<tbody>
 																					<tr style="vertical-align: top">
@@ -512,7 +512,7 @@
 																	<!--[if (gte mso 9)|(IE)]></td><![endif]-->
 																	<!--[if (gte mso 9)|(IE)]><td valign="top" width="453" style="width:453px;"><![endif]-->
 																	<div class="num8 company-name" style="display: inline-block;vertical-align: top;text-align: center;">
-																		<a href="https://m.stockflare.com/stock/{{ric}}?utm_source=alerts&utm_medium=email&utm_campaign=alerts&utm_content=stock">
+																		<a href="https://m.stockflare.com/stock/{{ric}}?utm_source=explore_history&utm_medium=email&utm_campaign=explore_history&utm_content=stock">
 																			<table cellpadding="0" cellspacing="0" align="center" width="100%" border="0" style="border-spacing: 0;border-collapse: collapse;vertical-align: top">
 																				<tbody>
 																					<tr style="vertical-align: top">
@@ -560,13 +560,76 @@
 					{{/lost_instruments}}
 					{{/has_lost}}
 
+					<table cellpadding="0" cellspacing="0" align="center" width="100%" border="0" style="border-spacing: 0;border-collapse: collapse;vertical-align: top">
+						<tbody>
+							<tr style="vertical-align: top">
+								<td width="100%" style="word-break: break-word;border-collapse: collapse !important;vertical-align: top;background-color: transparent">
+									<!--[if gte mso 9]>
+                    <table id="outlookholder" border="0" cellspacing="0" cellpadding="0" align="center"><tr><td>
+                    <![endif]-->
+									<!--[if (IE)]>
+                    <table width="680" align="center" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td>
+                    <![endif]-->
+									<table cellpadding="0" cellspacing="0" align="center" width="100%" border="0" class="container" style="border-spacing: 0;border-collapse: collapse;vertical-align: top;max-width: 680px;margin: 0 auto;text-align: inherit">
+										<tbody>
+											<tr style="vertical-align: top">
+												<td width="100%" style="word-break: break-word;border-collapse: collapse !important;vertical-align: top">
+													<table cellpadding="0" cellspacing="0" width="100%" bgcolor="transparent" class="block-grid " style="border-spacing: 0;border-collapse: collapse;vertical-align: top;width: 100%;max-width: 680px;color: #000000;background-color: transparent">
+														<tbody>
+															<tr style="vertical-align: top">
+																<td style="word-break: break-word;border-collapse: collapse !important;vertical-align: top;background-color: transparent;text-align: center;font-size: 0">
+																	<!--[if (gte mso 9)|(IE)]><table width="100%" align="center" bgcolor="transparent" cellpadding="0" cellspacing="0" border="0"><tr><![endif]-->
+																	<!--[if (gte mso 9)|(IE)]><td valign="top" width="680" style="width:680px;"><![endif]-->
+																	<div class="col num12" style="display: inline-block;vertical-align: top;width: 100%">
+																		<table cellpadding="0" cellspacing="0" align="center" width="100%" border="0" style="border-spacing: 0;border-collapse: collapse;vertical-align: top">
+																			<tbody>
+																				<tr style="vertical-align: top">
+																					<td style="word-break: break-word;border-collapse: collapse !important;vertical-align: top;background-color: transparent;padding-top: 5px;padding-right: 0px;padding-bottom: 5px;padding-left: 0px;border-top: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-left: 0px solid transparent">
+																						<table cellpadding="0" cellspacing="0" width="100%" style="border-spacing: 0;border-collapse: collapse;vertical-align: top">
+																							<tbody>
+																								<tr style="vertical-align: top">
+																									<td style="word-break: break-word;border-collapse: collapse !important;vertical-align: top;padding-top: 10px;padding-right: 0px;padding-bottom: 10px;padding-left: 0px">
+																										<div style="color:#555555;line-height:150%;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;">
+																											<div style="font-size:12px;line-height:18px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;text-align:left;">
+																												<a class="button-prompt" href="https://m.stockflare.com/explore/{{explore_category_uuid}}?utm_source=explore_history&utm_medium=email&utm_campaign=explore_history&utm_content=alerts" target="_blank">
+																											    {{view_category}}
+																											  </a>
+																											</div>
+																										</div>
+																									</td>
+																								</tr>
+																							</tbody>
+																						</table>
+																					</td>
+																				</tr>
+																			</tbody>
+																		</table>
+																	</div>
+																	<!--[if (gte mso 9)|(IE)]></td><![endif]-->
+																	<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<!--[if mso]>
+                    </td></tr></table>
+                    <![endif]-->
+									<!--[if (IE)]>
+                    </td></tr></table>
+                    <![endif]-->
+								</td>
+							</tr>
+						</tbody>
+					</table>
 
-					<a class="button-prompt" href="https://m.stockflare.com/explore/{{explore_category_uuid}}?utm_source=alerts&utm_medium=email&utm_campaign=alerts&utm_content=alerts" target="_blank">
-				    {{view_category}}
-				  </a>
 
-
-					<a href="https://m.stockflare.com/gift/refer?utm_source=alerts&utm_medium=email&utm_campaign=alerts&utm_content=refer">
+					<a href="https://m.stockflare.com/gift/refer?utm_source=explore_history&utm_medium=email&utm_campaign=explore_history&utm_content=refer">
 						<table cellpadding="0" cellspacing="0" align="center" width="100%" border="0" class="container" style="border-spacing: 0;border-collapse: collapse;vertical-align: top;max-width: 680px;margin: 0 auto;text-align: inherit">
 							<tbody>
 								<tr style="vertical-align: top">
@@ -651,12 +714,12 @@
 																											<div style="color:#555555;line-height:120%;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;">
 																												<div style="font-size:12px;line-height:14px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;text-align:center;">
 																													<p style="margin: 0;font-size: 14px;line-height: 14px"><span style="font-size: 14px; line-height: 20px; color:#86929a;">  <span>
-																											© Stockflare Limited. For more details on Stockflare Plus visit <a h  href="https://m.stockflare.com?utm_source=portfolio_analysis&utm_medium=email&utm_campaign=alerts&utm_content=stockflare">here.</a>
+																											© Stockflare Limited. For more details on Stockflare Plus visit <a h  href="https://m.stockflare.com?utm_source=explore_history&utm_medium=email&utm_campaign=explore_history&utm_content=stockflare">here.</a>
 																										<br>
 																										<br>
 																												Contact us at:
 																												info@stockflare.com
-																												<a href="https://m.stockflare.com/settings?utm_source=portfolio_analysis&utm_medium=email&utm_campaign=alerts&utm_content=settings">Update your preferences at the settings page</a> or please <a href="{{unsubscribe_url}}?utm_source=portfolio_analysis&utm_medium=email&utm_campaign=alerts&utm_content=unsubscribe">{{unsubscribe_text}}</a>
+																												<a href="https://m.stockflare.com/settings?utm_source=explore_history&utm_medium=email&utm_campaign=explore_history&utm_content=settings">Update your preferences at the settings page</a> or please <a href="{{unsubscribe_url}}?utm_source=explore_history&utm_medium=email&utm_campaign=explore_history&utm_content=unsubscribe">{{unsubscribe_text}}</a>
 																										</span>
 																														</span>
 																													</p>
